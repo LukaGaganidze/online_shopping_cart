@@ -1,0 +1,7 @@
+.shopping-Section {
+  display: flex;
+  width: 120rem;
+  margin: 0 auto;
+  gap: 3rem;
+  justify-content: center;
+}

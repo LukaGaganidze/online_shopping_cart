@@ -1,0 +1,35 @@
+.cart-item-quantity {
+  width: min-content;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: solid rgba(0, 0, 0, 0.243) 1px;
+  transition: all 0.2s;
+}
+.cart-item-quantity:hover {
+  border: solid black 1px;
+}
+.cart-item-quantity span {
+  font-size: 1.4rem;
+  cursor: default;
+}
+.cart-item-quantity span:first-child {
+  font-size: 1.8rem;
+  cursor: pointer;
+  display: inline-block;
+  height: 2.4rem;
+  width: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart-item-quantity span:last-child {
+  font-size: 1.8rem;
+  cursor: pointer;
+  display: inline-block;
+  height: 2.4rem;
+  width: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

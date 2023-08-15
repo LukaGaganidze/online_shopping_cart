@@ -1,0 +1,56 @@
+.header-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 5rem;
+  width: 20rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.header-menu.menu-down .header-menu-svg {
+  transform: rotate(180deg);
+}
+
+.header-menu:hover.menu-down .header-menu-svg {
+  transform: rotate(180deg) translateY(-0.8rem);
+}
+
+.header-menu:hover .header-menu-svg,
+.header-menu:active .header-menu-svg {
+  transform: translateY(0.8rem);
+}
+
+.header-menu p {
+  margin: 0;
+  padding: 0;
+}
+
+.header-menu-svg {
+  width: 4rem;
+  margin: 0;
+  padding: 0;
+  transition: all 0.5s;
+}
+
+.disabled-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 5rem;
+  width: 20rem;
+  color: rgba(0, 0, 0, 0.45);
+  cursor: default;
+}
+@media (max-width: 1000px) {
+  .header-menu {
+    font-size: 3rem;
+    width: 7rem;
+  }
+  .header-menu-svg {
+    width: 2rem;
+    margin: 0;
+    padding: 0;
+    transition: all 0.5s;
+  }
+}

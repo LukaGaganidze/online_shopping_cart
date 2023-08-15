@@ -1,0 +1,54 @@
+.resume {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: -100%;
+  left: 0;
+}
+
+.resume.active {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: all 1s ease-in;
+  transform: translatey(100%);
+}
+
+.resume-n-dowload {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.resume-imgbox {
+  position: relative;
+}
+
+.resume-img {
+  position: absolute;
+  top: 12rem;
+  width: 100%;
+}
+
+/* .resume-dowload {
+} */
+
+.additional-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.additional-info h2 {
+  margin-right: 2rem;
+  font-size: 3rem;
+}
+
+.github-img {
+  width: 7rem;
+  margin-right: 2rem;
+}
+
+.linkedin-img {
+  width: 5rem;
+}

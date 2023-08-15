@@ -1,0 +1,18 @@
+.section-h {
+  width: min-content;
+  font-size: 6rem;
+  margin: 12rem auto 3rem auto;
+}
+
+.section-h-first {
+  font-size: 6rem;
+  width: min-content;
+
+  margin: 0 auto;
+  padding: 8rem 0 3rem 0;
+}
+.footer-bridge {
+  width: 100%;
+  height: 4px;
+  margin-top: 10rem;
+}

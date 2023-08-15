@@ -1,0 +1,18 @@
+.projects {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: aquamarine;
+  top: -100%;
+  left: 0;
+  z-index: 1;
+}
+
+.projects.active {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: aquamarine;
+  transition: all 1s ease-in;
+  transform: translatey(100%);
+}

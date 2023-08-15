@@ -1,0 +1,17 @@
+.linkedin {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: aqua;
+  top: -100%;
+  left: 0;
+}
+
+.linkedin.active {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: aqua;
+  transition: all 1s ease-in;
+  transform: translatey(100%);
+}

@@ -1,0 +1,79 @@
+.form-shopping-item-small {
+  padding: 2rem;
+  background-color: #f8f4f3;
+  overflow: hidden;
+  max-width: 22rem;
+  position: relative;
+}
+
+.form-shopping-item-small div {
+  transition: all 0.5s;
+  background-color: #f8f4f3;
+  scale: 1.04;
+}
+.form-shopping-item-small h2 {
+  font-size: 1.4rem;
+  margin: 0;
+}
+.form-shopping-item-small p {
+  font-size: 1.7rem;
+  margin: 0;
+}
+.form-shopping-item-small span {
+  display: inline-block;
+  font-size: 1.4rem;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.form-shopping-item-small img {
+  width: 100%;
+  width: 22rem;
+  transition: all 1s;
+}
+
+.form-shopping-item-small:hover img {
+  scale: 1.03;
+}
+
+.form-shopping-item-small:hover div {
+  transform: translateY(-3rem);
+}
+
+.form-product-item {
+  position: relative;
+}
+
+.form-item-descriprion {
+  z-index: 5;
+  position: relative;
+}
+
+.form-add-btn {
+  font-family: inherit;
+  cursor: pointer;
+
+  position: absolute;
+  bottom: 2rem;
+  z-index: 0;
+
+  border: none;
+  font-size: 2rem;
+  padding: 0 1rem;
+  background-color: rgba(255, 255, 255, 0.617);
+  color: rgba(0, 0, 0, 0.502);
+
+  border-bottom: solid rgba(255, 255, 255, 0.617) 1px;
+
+  transition: all 0.5s;
+}
+.form-add-btn:active,
+.form-add-btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-bottom: solid black 1px;
+}
+
+.form-img-S {
+  cursor: pointer;
+}

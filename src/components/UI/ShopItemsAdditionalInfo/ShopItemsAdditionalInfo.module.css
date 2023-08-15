@@ -1,0 +1,88 @@
+.additional-info-content-container {
+  z-index: 500;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #fff;
+  opacity: 0;
+}
+.additional-info-content-container.active-info {
+  opacity: 1;
+}
+
+.images-div {
+  background-color: rgba(0, 0, 0, 0.096);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  border-right: 1px rgba(0, 0, 0, 0.528) solid;
+}
+.additional-pic {
+  width: 100%;
+}
+.information-div {
+  cursor: default;
+  padding: 4rem 2rem;
+}
+
+.information-div h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin: 0;
+  margin-bottom: 1.4rem;
+}
+
+.information-div p {
+  font-size: 1.4rem;
+  margin: 0;
+  line-height: 21px;
+}
+
+.information-div p:nth-child(2) {
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+.information-div p:nth-child(3) {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+.information-div p:last-child {
+  padding-bottom: 1rem;
+  border-bottom: solid black 1px;
+}
+.popup-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-bottom: 3rem;
+}
+.popup-actions-header {
+  font-size: 2rem;
+}
+
+.popup-controller-price {
+  width: 90% !important;
+  justify-content: space-around;
+  padding: 2rem 0 !important;
+}
+.popup-controller-price span {
+  scale: 1.5;
+}
+
+.weapon-button-poppup {
+  margin: 0 auto !important;
+  width: 90% !important;
+  padding: 2rem 0 !important;
+}
+.weapon-button {
+  font-size: 2rem;
+
+  gap: 0.2em;
+  border: solid rgba(0, 0, 0, 0.562) 2px !important;
+  margin-right: 3rem;
+}

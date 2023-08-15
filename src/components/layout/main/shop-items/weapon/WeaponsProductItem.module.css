@@ -1,0 +1,39 @@
+.individual-weapon-product {
+  width: 40rem;
+}
+.weapon-img {
+  cursor: pointer;
+}
+.individual-weapon-product:hover .weapon-img {
+  scale: 1.02;
+}
+
+.weapon-img {
+  width: 100%;
+  transition: all 1s;
+}
+
+.weapon-info {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.weapon-info {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.weapon-info h3 {
+  font-size: 2rem;
+  margin: 0;
+}
+.weapon-info p {
+  font-size: 1.4rem;
+  margin: 0;
+}
+.weapon-info span {
+  font-size: 1.4rem;
+  margin: 0;
+}

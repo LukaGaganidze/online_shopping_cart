@@ -1,0 +1,95 @@
+.footer-background-clr {
+  background-color: #1a1a1a;
+}
+.footer {
+  color: rgba(255, 255, 255, 0.897);
+
+  padding: 4rem 7rem;
+}
+.footer a:visited,
+.footer a:active {
+  color: rgba(255, 255, 255, 0.897);
+}
+
+.footer-first-part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-first-about {
+  display: flex;
+  gap: 8rem;
+}
+.footer-first-about h4 {
+  font-size: 2.1rem;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+.footer-first-about ul {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer-first-about ul li {
+  list-style: none;
+  font-size: 1.4rem;
+}
+.footer-first-about ul a {
+  font-size: 1.4rem;
+}
+
+.footer-my-mal p {
+  margin: 0;
+  padding: 0;
+}
+.footer-my-mal p:first-child {
+  margin: 0 0 1rem 0;
+  padding: 0;
+  font-size: 1.8rem;
+}
+.footer-my-mal p:last-child {
+  font-size: 2.3rem;
+}
+
+/* second part */
+
+.footer-second-part {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.valute-controller {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-second-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-second-iiner-text {
+  font-size: 2rem;
+  display: flex;
+  gap: 4rem;
+}
+.footer-second-iiner-text a:link,
+.footer-second-iiner-text a:visited {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.footer-last-text {
+  font-size: 1rem;
+}
+
+.footer-link:link,
+.fooret-link:visited {
+  font-family: inherit;
+  text-decoration: none;
+  color: #fff;
+}

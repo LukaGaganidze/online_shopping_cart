@@ -1,0 +1,17 @@
+.weapon-additional-info-overlay {
+  background-color: rgba(0, 0, 0, 0.528);
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 100;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-spinner {
+  scale: 2;
+}

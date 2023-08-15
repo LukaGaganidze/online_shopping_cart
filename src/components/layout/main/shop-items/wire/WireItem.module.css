@@ -1,0 +1,41 @@
+.individual-wire-product {
+  padding: 4rem;
+}
+.individual-wire-product:hover .wire-img {
+  scale: 1.05;
+}
+.wire-img-container {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wire-img {
+  width: 100%;
+  transition: all 1s;
+}
+
+.wire-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.wire-text h3 {
+  font-size: 2rem;
+  margin: 0;
+  margin-bottom: 1.4rem;
+}
+.wire-text p {
+  font-size: 1.4rem;
+  margin: 0;
+}
+.wire-text span {
+  font-size: 1.8rem;
+}
+
+.wire-img {
+  cursor: pointer;
+}

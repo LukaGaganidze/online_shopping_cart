@@ -1,0 +1,16 @@
+.spinner-button {
+  width: 11rem;
+  height: 5rem;
+  position: relative;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: black;
+
+  border: solid black 2px;
+  height: 3.67rem;
+  border-radius: 0.2rem;
+}

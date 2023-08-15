@@ -1,0 +1,37 @@
+header {
+  font-size: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: solid rgba(0, 0, 0, 0.313) 1px;
+  padding: 0 2rem;
+  position: relative;
+}
+
+.header-item {
+  width: 30rem;
+  display: flex;
+
+  justify-content: center;
+}
+
+.main-logo {
+  width: 9rem;
+  scale: 1.1;
+}
+
+@media (max-width: 1000px) {
+  .header-item-logo {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  header {
+    justify-content: space-between;
+    padding: 0 0.8rem;
+  }
+  .header-item {
+    width: max-content;
+  }
+}

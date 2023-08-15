@@ -1,0 +1,54 @@
+.mask-shopping-item {
+  padding: 2rem;
+  background-color: #f8f4f3;
+  overflow: hidden;
+  max-width: 22rem;
+  position: relative;
+}
+
+.mask-shopping-item div {
+  transition: all 0.5s;
+  background-color: #f8f4f3;
+  scale: 1.04;
+}
+.mask-shopping-item h2 {
+  font-size: 1.4rem;
+  margin: 0;
+}
+.mask-shopping-item p {
+  font-size: 1.7rem;
+  margin: 0;
+}
+.mask-shopping-item span {
+  display: inline-block;
+  font-size: 1.4rem;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.mask-shopping-item img {
+  width: 100%;
+  width: 22rem;
+  transition: all 1s;
+}
+
+.mask-shopping-item:hover img {
+  scale: 1.03;
+}
+
+.mask-shopping-item:hover div {
+  transform: translateY(-3rem);
+}
+
+.mask-product-item {
+  position: relative;
+}
+
+.mask-item-descriprion {
+  z-index: 5;
+  position: relative;
+}
+
+.mask-image {
+  cursor: pointer;
+}

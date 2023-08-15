@@ -1,0 +1,36 @@
+.mask-added-btn {
+  font-family: inherit;
+  cursor: pointer;
+
+  position: absolute;
+  bottom: 2rem;
+  z-index: 0;
+
+  border: none;
+  font-size: 2rem;
+  font-weight: 700;
+  background-color: inherit;
+  color: black;
+
+  border-bottom: solid black 3px;
+
+  transition: all 0.5s;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  width: 9.4rem;
+}
+
+.checkSvg {
+  height: 2.2rem;
+}
+.mask-added-btn:active,
+.mask-added-btn:hover {
+  background-color: inherit;
+
+  color: rgba(0, 0, 0, 0.622);
+
+  border-bottom: solid rgba(0, 0, 0, 0.501) 3px;
+}

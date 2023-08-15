@@ -1,0 +1,10 @@
+.content-blur {
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  overflow: hidden;
+  filter: blur(20px);
+  transition: all 0.5s;
+  cursor: pointer;
+}

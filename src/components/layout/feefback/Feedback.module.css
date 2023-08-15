@@ -1,0 +1,45 @@
+.feedback-cotainer h1 {
+  font-size: 7rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 7rem 0;
+
+  border-bottom: solid rgba(0, 0, 0, 0.243) 1px;
+}
+
+.feedback-cotainer p {
+  font-size: 2rem;
+}
+.feedback-first-p {
+  margin: 0;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.feedback-sec-p {
+  margin: 0;
+  margin-bottom: 5rem;
+}
+
+.user-confirm-btn {
+  margin-bottom: 7rem;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+  border: none;
+  border-bottom: solid transparent 2px;
+}
+
+.user-confirm-a:link,
+.user-confirm-a:visited {
+  font-size: 5rem;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.55);
+}
+.user-confirm-btn:hover .user-confirm-a:link,
+.user-confirm-btn:hover .user-confirm-a:visited {
+  color: black;
+}
