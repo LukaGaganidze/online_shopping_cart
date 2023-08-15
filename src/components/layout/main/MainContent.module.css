@@ -16,3 +16,22 @@
   height: 4px;
   margin-top: 10rem;
 }
+
+@media (max-width: 700px) {
+  .section-h-first {
+    font-size: 4rem;
+    margin: 5rem auto 2rem auto;
+    padding: 0;
+  }
+  .section-h {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 500px) {
+  .section-h-first {
+    font-size: 3rem;
+  }
+  .section-h {
+    font-size: 3rem;
+  }
+}

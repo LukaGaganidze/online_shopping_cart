@@ -28,7 +28,7 @@
 
 .mask-shopping-item img {
   width: 100%;
-  width: 22rem;
+  max-width: 22rem;
   transition: all 1s;
 }
 
@@ -51,4 +51,27 @@
 
 .mask-image {
   cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .mask-shopping-item h2 {
+    font-size: 1rem;
+    margin: 0;
+  }
+  .mask-shopping-item p {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  .mask-shopping-item span {
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .mask-shopping-item img {
+    width: 100%;
+    max-width: 20rem;
+    transition: all 1s;
+  }
 }

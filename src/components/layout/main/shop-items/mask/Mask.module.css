@@ -1,0 +1,19 @@
+.mask-container {
+  width: max-content;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  column-gap: 3rem;
+}
+
+@media (max-width: 1150px) {
+  .mask-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3rem;
+  }
+}
+@media (max-width: 580px) {
+  .mask-container {
+    grid-template-columns: 1fr;
+  }
+}

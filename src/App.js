@@ -106,7 +106,7 @@ function App() {
       {/* #FFF FOOTER */}
 
       <BackgroundBlur close={closeMenu} menuState={menuIncative}>
-        <Footer />
+        {/* <Footer /> */}
       </BackgroundBlur>
     </React.Fragment>
   );

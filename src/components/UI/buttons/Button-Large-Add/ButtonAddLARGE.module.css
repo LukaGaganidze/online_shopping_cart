@@ -30,3 +30,9 @@
 .svgCart {
   width: 2rem;
 }
+
+@media (max-width: 500px) {
+  .mask-add-btn {
+    transform: scale(0.5);
+  }
+}

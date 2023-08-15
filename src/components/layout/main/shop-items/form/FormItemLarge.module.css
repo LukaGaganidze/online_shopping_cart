@@ -18,7 +18,7 @@
   align-items: center;
 }
 .form-info-large div:first-child {
-  width: 28rem;
+  max-width: 28rem;
 }
 
 .form-info-large h2 {
@@ -41,4 +41,33 @@
   font-size: 2rem;
   gap: 0.2em;
   border: solid rgba(0, 0, 0, 0.562) 2px;
+}
+
+@media (max-width: 500px) {
+  .individual-form-product-large {
+    width: 30rem;
+  }
+  .form-info-large h2 {
+    font-size: 1rem;
+  }
+  .form-info-large p {
+    font-size: 0.8rem;
+  }
+  .form-info-large span {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 350px) {
+  .individual-form-product-large {
+    width: 20rem;
+  }
+  .form-info-large h2 {
+    font-size: 1rem;
+  }
+  .form-info-large p {
+    font-size: 0.8rem;
+  }
+  .form-info-large span {
+    font-size: 0.8rem;
+  }
 }

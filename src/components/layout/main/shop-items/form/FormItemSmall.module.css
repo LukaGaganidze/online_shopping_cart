@@ -28,7 +28,7 @@
 
 .form-shopping-item-small img {
   width: 100%;
-  width: 22rem;
+  max-width: 22rem;
   transition: all 1s;
 }
 
@@ -76,4 +76,26 @@
 
 .form-img-S {
   cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .form-shopping-item-small h2 {
+    font-size: 0.7rem;
+    margin: 0;
+  }
+  .form-shopping-item-small p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  .form-shopping-item-small span {
+    display: inline-block;
+    font-size: 0.7rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
+  }
+}
+@media (max-width: 300px) {
+  .form-shopping-item-small {
+    max-width: 20rem;
+  }
 }

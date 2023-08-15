@@ -1,6 +1,8 @@
 import React from "react";
 import MaskItems from "./MaskItems";
 
+import classes from "./Mask.module.css";
+
 import ShoppincSectionCard from "../../../../UI/ShoppincSectionCard/ShoppincSectionCard";
 
 // mask images
@@ -77,7 +79,7 @@ const MaskDummyData = [
 
 const Mask = () => {
   return (
-    <ShoppincSectionCard>
+    <div className={classes["mask-container"]}>
       {MaskDummyData.map((product) => (
         <MaskItems
           name={product.name}
@@ -91,7 +93,7 @@ const Mask = () => {
           additionalInfo={product.additionalInfo}
         />
       ))}
-    </ShoppincSectionCard>
+    </div>
   );
 };
 

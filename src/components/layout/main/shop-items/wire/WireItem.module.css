@@ -39,3 +39,34 @@
 .wire-img {
   cursor: pointer;
 }
+
+@media (max-width: 1000px) {
+  .individual-wire-product-resp {
+    width: 35rem;
+  }
+}
+@media (max-width: 500px) {
+  .individual-wire-product-resp {
+    width: 30rem;
+  }
+  .individual-wire-product {
+    padding: 2rem;
+  }
+  .wire-text h3 {
+    font-size: 1rem;
+    margin: 0;
+    margin-bottom: 1.4rem;
+  }
+  .wire-text p {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  .wire-text span {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 420px) {
+  .individual-wire-product-resp {
+    width: 20rem;
+  }
+}

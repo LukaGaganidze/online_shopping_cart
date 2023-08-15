@@ -32,3 +32,9 @@
 .checkSvg {
   width: 2rem;
 }
+
+@media (max-width: 500px) {
+  .mask-added-btn {
+    transform: scale(0.5);
+  }
+}

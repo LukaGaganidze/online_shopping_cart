@@ -90,32 +90,34 @@ const WireItem = (props) => {
           document.getElementById("additionalInfo")
         )}
       <ShoppingItemCard className={classes["individual-wire-product"]}>
-        <div className={classes["wire-img-container"]}>
-          <img
-            onClick={openAdditionalInformationhandler}
-            src={props.img}
-            className={classes["wire-img"]}
-          />
-        </div>
-        <div className={classes["wire-text"]}>
-          <div>
-            <h3>{props.name}</h3>
-            <p>{props.description}</p>
-            <span>{props.price.toFixed(2)}$</span>
+        <div className={classes["individual-wire-product-resp"]}>
+          <div className={classes["wire-img-container"]}>
+            <img
+              onClick={openAdditionalInformationhandler}
+              src={props.img}
+              className={classes["wire-img"]}
+            />
           </div>
+          <div className={classes["wire-text"]}>
+            <div>
+              <h3>{props.name}</h3>
+              <p>{props.description}</p>
+              <span>{props.price.toFixed(2)}$</span>
+            </div>
 
-          {itemIsInAdded && (
-            <ButtonAddedLARGE
-              onRemoveItem={removeWireProductFromCartHandler}
-              className={classes["wire-button"]}
-            />
-          )}
-          {!itemIsInAdded && (
-            <ButtonAddLARGE
-              onAddItem={addWireProductToCartHandler}
-              className={classes["wire-button"]}
-            />
-          )}
+            {itemIsInAdded && (
+              <ButtonAddedLARGE
+                onRemoveItem={removeWireProductFromCartHandler}
+                className={classes["wire-button"]}
+              />
+            )}
+            {!itemIsInAdded && (
+              <ButtonAddLARGE
+                onAddItem={addWireProductToCartHandler}
+                className={classes["wire-button"]}
+              />
+            )}
+          </div>
         </div>
       </ShoppingItemCard>
     </React.Fragment>
