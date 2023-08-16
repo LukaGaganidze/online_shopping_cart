@@ -1,6 +1,7 @@
 .mask-added-btn {
   font-family: inherit;
   cursor: pointer;
+  background-color: aqua;
 
   position: absolute;
   bottom: 2rem;

@@ -79,6 +79,9 @@
 }
 
 @media (max-width: 500px) {
+  .form-shopping-item-small div {
+    transform: translateY(-3rem);
+  }
   .form-shopping-item-small h2 {
     font-size: 0.7rem;
     margin: 0;

@@ -54,6 +54,9 @@
 }
 
 @media (max-width: 500px) {
+  .mask-shopping-item div {
+    transform: translateY(-3rem);
+  }
   .mask-shopping-item h2 {
     font-size: 1rem;
     margin: 0;
