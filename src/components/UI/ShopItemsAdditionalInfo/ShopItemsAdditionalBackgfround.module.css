@@ -15,3 +15,9 @@
 .loading-spinner {
   scale: 2;
 }
+
+@media (max-width: 1300px) {
+  .weapon-additional-info-overlay {
+    display: none;
+  }
+}

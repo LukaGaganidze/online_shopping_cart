@@ -65,9 +65,7 @@ const Footer = () => {
               <div className={classes["footer-second-iiner-text"]}>
                 <div>Developed By Luka Gaganidze</div>
               </div>
-              <div className={classes["footer-last-text"]}>
-                manifest FNCG 2023
-              </div>
+              <div className={classes["footer-last-text"]}>Fencing Shop</div>
             </div>
           </div>
         </footer>

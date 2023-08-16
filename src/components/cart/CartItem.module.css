@@ -63,3 +63,14 @@
 .cart-item-img {
   width: 10rem;
 }
+
+@media (max-width: 400px) {
+  .mobile {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  .mobile-vers {
+    display: none;
+  }
+}

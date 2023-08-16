@@ -75,6 +75,16 @@
   .heaeder-btn {
     font-size: 2rem;
   }
+  .btn-dissabled {
+    font-size: 2rem;
+  }
+
+  .cart-num-border-dis {
+    height: 2rem;
+    width: 2rem;
+    font-size: 2rem;
+  }
+
   .cart-num-border {
     height: 2rem;
     width: 2rem;

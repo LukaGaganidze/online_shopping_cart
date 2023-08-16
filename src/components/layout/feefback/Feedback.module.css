@@ -43,3 +43,36 @@
 .user-confirm-btn:hover .user-confirm-a:visited {
   color: black;
 }
+
+@media (max-width: 1250px) {
+  .feedback-cotainer h1 {
+    font-size: 5rem;
+    padding: 3rem 0;
+  }
+
+  .feedback-cotainer {
+    padding: 0 2rem;
+  }
+  .user-confirm-a:link,
+  .user-confirm-a:visited {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 500px) {
+  .feedback-cotainer h1 {
+    font-size: 3rem;
+    padding: 3rem 0;
+  }
+
+  .feedback-cotainer {
+    padding: 0 1rem;
+  }
+  .feedback-cotainer p {
+    font-size: 1rem;
+  }
+  .user-confirm-a:link,
+  .user-confirm-a:visited {
+    font-size: 2rem;
+    width: max-content;
+  }
+}

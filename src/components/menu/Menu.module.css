@@ -55,9 +55,9 @@
 .contact {
   transform: translateX(-60rem);
 }
-.more {
+/* .more {
   transform: translateX(-60rem);
-}
+} */
 
 .menu-container.active-menu .pieces {
   transform: translateX(0rem);
@@ -71,10 +71,10 @@
   transform: translateX(0rem);
   transition: transform 0.7s ease-out;
 } */
-.menu-container.active-menu .more {
+/* .menu-container.active-menu .more {
   transform: translateX(0rem);
   transition: transform 0.9s ease-out;
-}
+} */
 
 /* manu out */
 .menu-container.inactive-menu .pieces {
@@ -92,4 +92,14 @@
 .menu-container.inactive-menu .more {
   transform: translateX(-50rem);
   transition: transform 0.7s ease;
+}
+
+@media (max-width: 700px) {
+  .menu-link:link,
+  .menu-link:visited {
+    font-size: 5rem;
+  }
+  .menu-container ul li {
+    padding-left: 0em;
+  }
 }

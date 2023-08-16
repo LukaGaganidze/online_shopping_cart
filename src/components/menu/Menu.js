@@ -59,14 +59,6 @@ const Menu = (props) => {
             Contact
           </Link>
         </li> */}
-        <li
-          onClick={() => dispatcher(menuUIActions.closeMenu())}
-          className={classes.more}
-        >
-          <Link className={classes["menu-link"]} to="/more">
-            More
-          </Link>
-        </li>
       </ul>
     </div>
   );

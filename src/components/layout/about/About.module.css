@@ -1,9 +1,9 @@
 .about-sec-container {
-  width: 120rem;
+  max-width: 120rem;
   margin: 0 auto;
 
   display: grid;
-  grid-template-columns: 1fr 1.5fr auto;
+  grid-template-columns: 1fr 1.5fr;
   column-gap: 15rem;
 
   padding: 6rem 2rem;
@@ -67,19 +67,54 @@
   width: 7rem;
 }
 
-.leon-paulcontainer {
-  display: flex;
-  align-items: center;
-  margin-top: 2rem;
-}
-
-.leon-paulcontainer h2 {
-  font-size: 1.2rem;
-  width: 25rem;
-  transform: translateY(0.4rem);
-}
-
 .leon-paul-logo {
   width: 20rem;
   display: block;
+}
+
+@media (max-width: 1100px) {
+  .about-sec-container {
+    max-width: 60rem;
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    row-gap: 5rem;
+  }
+}
+@media (max-width: 500px) {
+  .about-sec-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .about-sec-container h1 span {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+
+  .about-sec-container p {
+    font-size: 1.4rem;
+    line-height: 18px;
+    margin: 0;
+  }
+  .about-sec-text h1 {
+    margin-top: 0rem;
+  }
+  .about-sec-text p {
+    margin-bottom: 1rem;
+  }
+
+  .skills-side-img-box {
+    width: 4rem;
+  }
+  .skills-side-img {
+    height: 4rem;
+  }
+
+  .aditional-info h2 {
+    font-size: 2rem;
+  }
+  .aditional-info img {
+    width: 4rem;
+  }
 }

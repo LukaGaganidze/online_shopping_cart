@@ -120,3 +120,9 @@
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 700px) {
+  .form-container form {
+    grid-template-columns: 1fr;
+  }
+}

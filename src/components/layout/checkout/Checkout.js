@@ -17,7 +17,7 @@ const Checkout = () => {
     <ContainerBig>
       <div className={classes["checkout-page"]}>
         <CheckoutForm />
-        <div>
+        <div className={classes["mobile"]}>
           <div className={classes["ordered-items"]}>
             {cartItems.map((product) => (
               <CartItem

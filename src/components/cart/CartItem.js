@@ -24,9 +24,10 @@ const CartItem = (props) => {
         <div className={classes["item-img-side"]}>
           <img src={props.img} className={classes["cart-item-img"]} />
           <div className={classes["item-img-side-action"]}>
-            <h4>{props.name} </h4>
-            <p>{props.description}</p>
+            <h4 className={classes["mobile-vers"]}>{props.name} </h4>
+            <p className={classes["mobile"]}>{props.description}</p>
             <CartQuantity
+              className={classes["mobile-vers"]}
               onRemoveItem={remQuantityHandler}
               onAddItem={addQuantityHandler}
               quantity={props.quantity}
