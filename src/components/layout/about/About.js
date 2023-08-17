@@ -62,6 +62,15 @@ const About = () => {
           This web application was built with React/Redux. To simulate sending
           cart data to the backend, I have used Firebase.
         </p>
+
+        <p>
+          All information about products and images are taken from{" "}
+          <a href="https://www.leonpaul.com/" target="_blank">
+            leonpaul
+          </a>{" "}
+          website. I don't claim to own any of their products or sell them, this
+          website is for my portfolio web page only.
+        </p>
       </div>
     </div>
   );

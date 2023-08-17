@@ -20,9 +20,6 @@ const Footer = () => {
                   <Link className={classes["footer-link"]} to="/about">
                     About
                   </Link>
-                  <Link className={classes["footer-link"]} to="/more">
-                    Contact
-                  </Link>
                 </ul>
               </div>
 
